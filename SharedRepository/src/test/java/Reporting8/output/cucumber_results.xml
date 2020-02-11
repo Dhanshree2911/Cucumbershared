@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.102568">
+    <testcase classname="Test Calculator" name="Add two numbers" time="0.102568">
+        <system-out>
+            <![CDATA[Given I enter 50 in the calculator..........................................passed
+And I press add.............................................................passed
+And I have entered 50 in the calculator.....................................passed
+When I press equal symbol...................................................passed
+Then The result should be 100 on the screen.................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

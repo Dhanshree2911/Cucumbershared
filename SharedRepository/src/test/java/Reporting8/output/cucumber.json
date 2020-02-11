@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-11T11:02:40.012Z",
+        "line": 4,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1963200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 50 in the calculator",
+            "match": {
+              "location": "sharedDef.I_enter_50_in_the_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1128100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press add",
+            "match": {
+              "location": "sharedDef.I_press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1608500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have entered 50 in the calculator",
+            "match": {
+              "location": "sharedDef.I_have_entered_50_in_the_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1288900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "sharedDef.I_press_equal_symbol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1453600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The result should be 100 on the screen",
+            "match": {
+              "location": "sharedDef.The_result_should_be_100_on_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "This file describes calculator functionality",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:cucumber/shared.feature",
+    "tags": []
+  }
+]
